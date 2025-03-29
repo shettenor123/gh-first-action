@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: unbunt-latest
+    steps:
+      - name: Print Greeding
+        run: echo "Hello World"
+      - name: Print Goodby
+        run: echo "Done Buy!"
